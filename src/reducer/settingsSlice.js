@@ -67,7 +67,7 @@ export const settingsSlice = createSlice({
     isLocaleSet: false,
     isSettingUrl: false,
     isUpdating: false,
-    localeValue: 'en',
+    localeValue: 'fr',
     notification: {},
     webSocketUrl: 'wss://app.chatwoot.com/cable',
   }),

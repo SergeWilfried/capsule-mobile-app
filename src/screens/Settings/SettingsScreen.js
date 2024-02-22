@@ -313,7 +313,7 @@ const SettingsScreen = () => {
         {!!Config.CHATWOOT_WEBSITE_TOKEN && !!Config.CHATWOOT_BASE_URL && !!showWidget && (
           <ChatWootWidget
             websiteToken={Config.CHATWOOT_WEBSITE_TOKEN}
-            locale="en"
+            locale="fr"
             baseUrl={Config.CHATWOOT_BASE_URL}
             closeModal={() => toggleWidget(false)}
             isModalVisible={showWidget}
